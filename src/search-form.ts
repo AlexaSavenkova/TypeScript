@@ -1,4 +1,5 @@
 import { renderBlock } from './lib.js'
+import {SearchFormData} from './search-form-data.js'
 
 const dateToString = (date: Date): string => {
   let day = date.getDate().toString()
@@ -52,7 +53,7 @@ export function renderSearchFormBlock (checkInDate: Date = getDateFromToday(1), 
             <input id="max-price" type="text" value="" name="price" class="max-price" />
           </div>
           <div>
-            <div><button>Найти</button></div>
+            <div><button id="search-button">Найти</button></div>
           </div>
         </div>
       </fieldset>

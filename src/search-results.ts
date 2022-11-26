@@ -1,4 +1,9 @@
 import { renderBlock } from './lib.js'
+import {SearchFormData} from './search-form-data.js'
+
+export function searchResults (data: SearchFormData) {
+  console.log(data)
+}
 
 export function renderSearchStubBlock () {
   renderBlock(

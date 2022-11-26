@@ -6,6 +6,10 @@
     "moduleResolution": "Node"
   },
   "files": [
-    "src/index.ts"
+    "src/index.ts",
+    "src/lib.ts",
+    "src/search-form.ts",
+    "src/search-results.ts",
+    "src/user.ts"
   ]
 }
