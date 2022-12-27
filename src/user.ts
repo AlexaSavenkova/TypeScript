@@ -49,13 +49,7 @@ export function getUserData (): User {
     const user = JSON.parse(localStorage.getItem('user'))
     return validateUser(user)
   } catch {
-    console.log('catch')
     return {userName:'Guest', avatarUrl: '/img/avatar.png'}
   }
-}
-
-export function getFavoritesAmount ():number {
-  const amount = localStorage.getItem('favoritesAmount')
-  return Number(amount)
 }
 
